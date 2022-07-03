@@ -1,0 +1,20 @@
+module wlx_m_sequence
+(
+	input				clk,
+	input				rst,
+	output		   out,
+	output  reg [4:0]	shift
+);
+
+always @(posedge clk)
+	if( rst == 1'b0) 
+		shift <= 'b00001;
+	else 
+		begin
+			shift <= (shift >> 1'b1); 
+			shift[4] <= shift[0]^shift[2];
+		end
+
+assign out = shift[0];
+endmodule
+

@@ -1,0 +1,66 @@
+module zn_wlx_freq_detect#(parameter integer SCH_thread0 = 150)
+	(
+        input        y_clk,
+        input         [7:0] din,
+        input             cy_rst,
+        output reg [15:0]  fre_o
+    );
+    
+    localparam  SCH_thread1 = (SCH_thread0<<1)/3;
+    
+    reg [3:0] cy_state;
+    reg [15:0] cy_cnt;
+	 
+	 initial
+		begin
+			cy_state <= cy_state;
+			cy_cnt <= 16'd0;
+	   end
+	 
+    always@(posedge cy_clk,posedge cy_rst)
+    begin
+        if(cy_rst)
+        begin
+            cy_cnt<=16'd0;
+            cy_state <= 4'd0;
+        end
+        else
+        begin
+   
+                case(cy_state)
+                    4'd0:begin
+                        if(din>=SCH_thread0)
+                        begin
+                             cy_state<=cy_state+4'd1;cy_cnt<=32'd0;//大于开始计时
+                        end
+                        else
+                        begin
+                            cy_state<=cy_state;
+                        end
+                    end
+                    4'd1:begin
+                        cy_cnt<=cy_cnt+32'd1;//定时器加
+                        if(din<=SCH_thread1)
+                             cy_state<=cy_state+4'd1;//大于开始计时
+                        else
+                            cy_state<=cy_state;
+                    end
+                    4'd2:begin
+                        if(din>=SCH_thread0)
+                        begin
+                             cy_state<=4'd0;//大于开始计时
+                             fre_o<=cy_cnt;
+                        end
+                        else
+                             cy_cnt<=cy_cnt+32'd1;//定时器加
+                    end
+                endcase
+            else
+            begin
+            
+            end
+        end
+    end
+    
+endmodule
+

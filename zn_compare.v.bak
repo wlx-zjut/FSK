@@ -1,0 +1,9 @@
+module zn_compare
+(
+	input [15:0]  fre_o,
+	output wire[15:0]  deo
+);
+ 
+ assign deo = fre_o >= 700? 1'b1:1'b0;
+ endmodule
+  

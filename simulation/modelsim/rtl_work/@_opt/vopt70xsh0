@@ -1,0 +1,225 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\WLX\Desktop\Project\simulation\modelsim
+T_opt
+VhKLFdo:Z5WHGZg[9Lz=BO1
+04 15 4 work lzw_FSK_vlg_tst fast 0
+=1-d0abd5b953f2-62c0f24b-17a-1a9c
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work +acc
+n@_opt
+OE;O;10.1a;51
+vLY_choose
+IYZ0I0>on_0^j4z6hUI:R83
+V0H1]aYfEPm>ZhaDaC80;40
+Z1 dC:\Users\WLX\Desktop\Project\simulation\modelsim
+w1656811334
+8C:/Users/WLX/Desktop/Project/LY_choose.v
+FC:/Users/WLX/Desktop/Project/LY_choose.v
+L0 1
+Z2 OE;L;10.1a;51
+r1
+31
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/WLX/Desktop/Project -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@l@y_choose
+!i10b 1
+!s100 NYaZ1fMTh9NeP?4XG^7cV2
+!s85 0
+!s108 1656812106.414000
+!s107 C:/Users/WLX/Desktop/Project/LY_choose.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/LY_choose.v|
+vLY_DIV
+IDI<bUf<>EB[]gn`CCX[Ek3
+VSEdFPaXomFh3MAJLCGSl:0
+R1
+w1656725007
+8C:/Users/WLX/Desktop/Project/LY_DIV.v
+FC:/Users/WLX/Desktop/Project/LY_DIV.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@l@y_@d@i@v
+!i10b 1
+!s100 oS__N`z8ezLF3L_e?o9SZ0
+!s85 0
+!s108 1656812106.258000
+!s107 C:/Users/WLX/Desktop/Project/LY_DIV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/LY_DIV.v|
+vlzw_FSK
+IZJDl8ONeOWl>ERKf66Yd02
+VjWDX;1;Q]<_:YfaYW7Kc32
+R1
+w1656811837
+8C:/Users/WLX/Desktop/Project/lzw_FSK.v
+FC:/Users/WLX/Desktop/Project/lzw_FSK.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nlzw_@f@s@k
+!i10b 1
+!s100 @5KE7H@f5OZ:Jg_gHGLIC1
+!s85 0
+!s108 1656812106.805000
+!s107 C:/Users/WLX/Desktop/Project/lzw_FSK.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/lzw_FSK.v|
+vlzw_FSK_vlg_tst
+IRh6^:[Y9dJF4<Qk0iDYnY2
+VZi?6@i3@j_5c9`=SRMI:72
+R1
+w1656812079
+8C:/Users/WLX/Desktop/Project/simulation/modelsim/lzw_FSK.vt
+FC:/Users/WLX/Desktop/Project/simulation/modelsim/lzw_FSK.vt
+L0 28
+R2
+r1
+31
+R3
+nlzw_@f@s@k_vlg_tst
+!i10b 1
+!s100 >fYeGOjhPhjB]3Jd<E<A01
+!s85 0
+!s108 1656812106.883000
+!s107 C:/Users/WLX/Desktop/Project/simulation/modelsim/lzw_FSK.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project/simulation/modelsim|C:/Users/WLX/Desktop/Project/simulation/modelsim/lzw_FSK.vt|
+!s92 -vlog01compat -work work +incdir+C:/Users/WLX/Desktop/Project/simulation/modelsim -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vsinewave
+IiEVU@=S5;CT^<O5N[YSei0
+VCkOgNhXAIS87EBW8GZ4C51
+R1
+w1656645146
+8C:/Users/WLX/Desktop/Project/sinewave.v
+FC:/Users/WLX/Desktop/Project/sinewave.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Oh:ge`;QPRF<G<34gY1?I3
+!s85 0
+!s108 1656812106.508000
+!s107 C:/Users/WLX/Desktop/Project/sinewave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/sinewave.v|
+vwlx_m_sequence
+I;k[UGG^8DaTWT?59aN?QZ0
+VMP<30XnbU_:fK3fa@5LEa3
+R1
+w1656725172
+8C:/Users/WLX/Desktop/Project/wlx_m_sequence.v
+FC:/Users/WLX/Desktop/Project/wlx_m_sequence.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 =E]0AZi^iej9o[26Z9iC73
+!s85 0
+!s108 1656812106.336000
+!s107 C:/Users/WLX/Desktop/Project/wlx_m_sequence.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/wlx_m_sequence.v|
+vwlx_modulation
+IGRzVM;hSbQ[W2Ji7LQaMj1
+VOfQLfDY[Pi<>4m8Hg=h<A3
+R1
+w1656727490
+8C:/Users/WLX/Desktop/Project/wlx_modulation.v
+FC:/Users/WLX/Desktop/Project/wlx_modulation.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 zMgz2fTQ=Z7S0KVA[i>X23
+!s85 0
+!s108 1656812106.164000
+!s107 C:/Users/WLX/Desktop/Project/wlx_modulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/wlx_modulation.v|
+vwlx_sinout
+I5GW8RGVD53k0?`z<POJA11
+VK9_HKnBo=g[bl[^Zm8FEc3
+R1
+w1656645180
+8C:/Users/WLX/Desktop/Project/wlx_sinout.v
+FC:/Users/WLX/Desktop/Project/wlx_sinout.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Ebd4_ch9N09Gzni^;ZWdc2
+!s85 0
+!s108 1656812106.461000
+!s107 C:/Users/WLX/Desktop/Project/wlx_sinout.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/wlx_sinout.v|
+vzn_compare
+I9=@Dlb?72MIo3IFbYO2N:3
+V:RVZ=K5MjjdY4T[9L89RP3
+R1
+w1656811943
+8C:/Users/WLX/Desktop/Project/zn_compare.v
+FC:/Users/WLX/Desktop/Project/zn_compare.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 6bCzJI6B[WaBVEY;=JdO:0
+!s85 0
+!s108 1656812106.680000
+!s107 C:/Users/WLX/Desktop/Project/zn_compare.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/zn_compare.v|
+vzn_demodulation
+ICje_2;JLm;<OoX0C`^2j]0
+V01::KHT0Ff_U2me1=DPD>3
+R1
+w1656810994
+8C:/Users/WLX/Desktop/Project/zn_demodulation.v
+FC:/Users/WLX/Desktop/Project/zn_demodulation.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 =5KUeZh^aX:foiR:ne4>Z0
+!s85 0
+!s108 1656812106.617000
+!s107 C:/Users/WLX/Desktop/Project/zn_demodulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/zn_demodulation.v|
+vzn_wlx_freq_detect
+IS3?eTC70^70:Jn;Ie4kM12
+Vg_?B4n`:F=R>h<?AcKMhY0
+R1
+w1656808987
+8C:/Users/WLX/Desktop/Project/zn_wlx_freq_detect.v
+FC:/Users/WLX/Desktop/Project/zn_wlx_freq_detect.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ;4Qa<^ZzlkEOKSlWk@`]n3
+!s85 0
+!s108 1656812106.570000
+!s107 C:/Users/WLX/Desktop/Project/zn_wlx_freq_detect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/WLX/Desktop/Project|C:/Users/WLX/Desktop/Project/zn_wlx_freq_detect.v|
